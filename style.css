@@ -1,0 +1,56 @@
+#form{
+    width: 80%;
+    padding-top: 30%;
+    margin: auto;
+}
+#but{
+    padding-top: 2%;
+    margin: auto;
+}
+#C1{
+    text-align: center;
+    padding-top: 2%;
+}
+#card{
+    width: 90%;
+    margin: auto;
+}
+#ca_gr{
+    padding-top: 8%;
+
+}
+#cr_br{
+    padding: 30 0 30 0;
+    
+}
+a:hover, a:visited, a:link, a:active{
+    text-decoration: none;
+}
+#map{
+    height: 300px;
+}
+body{
+    background-image: url('can.png');
+    background-color: rgb(44, 46, 67) !important;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+backgroung-image{
+    opacity: 0.5;
+}
+.navbar{
+    background-color: #256D85 !important;
+    color: white;
+}
+.navbar-brand{
+    color: white;
+}
+.card-body{
+    background-color: #256D85;
+}
+#card-list{
+    background-color: #256D85;
+}
