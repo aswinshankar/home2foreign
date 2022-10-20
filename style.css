@@ -1,11 +1,12 @@
 #form{
     width: 80%;
-    padding-top: 30%;
+    padding-top: 10%;
     margin: auto;
 }
 #but{
     padding-top: 2%;
     margin: auto;
+    text-align: right;
 }
 #C1{
     text-align: center;
