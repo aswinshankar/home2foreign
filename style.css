@@ -2,6 +2,7 @@
     width: 80%;
     padding-top: 10%;
     margin: auto;
+    padding-bottom: 3%;
 }
 #but{
     padding-top: 2%;
@@ -15,6 +16,7 @@
 #card{
     width: 90%;
     margin: auto;
+    background-color: #256D85;
 }
 #ca_gr{
     padding-top: 8%;
@@ -49,9 +51,52 @@ backgroung-image{
 .navbar-brand{
     color: white;
 }
-.card-body{
-    background-color: #256D85;
-}
+
 #card-list{
     background-color: #256D85;
+}
+#cr_br_in{
+    background-color: rgb(255, 255, 255,0.5);
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+#in_info_sin{
+    padding-bottom: 5%;
+    padding-top: 5%;
+    
+}
+#in_info_sim{
+    padding-bottom: 5%;
+}
+#card_in{
+    background-color: none;
+    border: 0cm;
+    opacity: 100%;
+}
+#in_2{
+    background-color: rgb(37, 109, 133,0.8);
+}
+#faq_bg{
+    background-color:rgb(255, 255, 255,0.5);
+    margin-right: 5%;
+    margin-top:3%;
+    margin-bottom:3%;
+    margin-left: 5%;
+     
+    padding: 0% 5% 3% 1%; 
+    border-radius: 3%;
+}
+#footer{
+    color: white;
+    margin-bottom:0;
+    padding-bottom: 1%; 
+    background-color:#256D85;
+}
+#con{
+    height: 60%;
+    padding-left:2%;
+    color: white;
 }
