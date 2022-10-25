@@ -33,8 +33,8 @@ a:hover, a:visited, a:link, a:active{
     height: 300px;
 }
 body{
-    background-image: url('can.png');
-    background-color: rgb(44, 46, 67) !important;
+    
+    
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
