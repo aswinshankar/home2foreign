@@ -1,6 +1,6 @@
 #form{
     width: 80%;
-    padding-top: 10%;
+    padding-top: 5%;
     margin: auto;
     padding-bottom: 3%;
 }
@@ -19,7 +19,7 @@
     background-color: #256D85;
 }
 #ca_gr{
-    padding-top: 8%;
+    
 
 }
 #cr_br{
@@ -33,19 +33,12 @@ a:hover, a:visited, a:link, a:active{
     height: 300px;
 }
 body{
-    
-    
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: cover;
-    
 }
 backgroung-image{
     opacity: 0.5;
 }
 .navbar{
-    background-color: #256D85 !important;
+    background-color: none ;
     color: white;
 }
 .navbar-brand{
@@ -56,7 +49,7 @@ backgroung-image{
     background-color: #256D85;
 }
 #cr_br_in{
-    background-color: rgb(255, 255, 255,0.5);
+    background-color: rgba(0, 171, 179, 0.5);
     
     display: flex;
     align-items: center;
@@ -75,12 +68,13 @@ backgroung-image{
     background-color: none;
     border: 0cm;
     opacity: 100%;
+    padding-left: 5%;
 }
 #in_2{
-    background-color: rgb(37, 109, 133,0.8);
+    
 }
 #faq_bg{
-    background-color:rgb(255, 255, 255,0.5);
+    background-color:rgb(44, 46, 67,0.5);
     margin-right: 5%;
     margin-top:3%;
     margin-bottom:3%;
@@ -92,11 +86,59 @@ backgroung-image{
 #footer{
     color: white;
     margin-bottom:0;
-    padding-bottom: 1%; 
+    
     background-color:#256D85;
 }
 #con{
     height: 60%;
     padding-left:2%;
+    background-color: rgba(0, 171, 179, 0.5) !important;
     color: white;
 }
+#head{
+    background-color: rgb(44, 46, 67,0.5) !important;
+    background-image: url('images.jpeg');
+    background-size: 100% 100%;
+   
+    height: 70%;
+}
+#head_2{
+    background-color: rgba(0, 171, 179, 0.5) !important;
+    height: 100%;
+}
+.navbar-brand{
+    font-family: 'Fasthand', cursive;
+}
+.brand{
+    font-family: 'Fasthand', cursive;
+    font-size: 900%;
+    padding-top: 7%;
+    color: antiquewhite;
+}
+#card_body{
+    padding-right: 5%;
+}
+#col_nam{
+    font-family: 'Raleway', sans-serif;
+}
+li{
+    text-decoration: none;
+}
+.navbar-brand{
+    font-size: 200% !important;
+}
+.nav-link{
+    
+        font-size: 150% !important;
+    
+}
+#nav-hom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    text-align: center !important;
+}
+
+  
+  @import url('https://css.gg/pin.css');  
