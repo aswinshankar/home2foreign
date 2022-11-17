@@ -38,18 +38,22 @@
   <!-- Home section -->
   <section class="home" id="home">
 
-    <div class="drop">
-      <select class="drop_control box" id="drop" aria-label="Default select example" accesskey="target" name="drop">
-        <option value="-">Select Universities</option>
-        <option value="college.html">college 1</option>
-        <option value="creative">college 2</option>
-        <option value="uiux">college 3</option>
-      </select>
+    <div class="search">
+      <div class="drop">
+        <select class="drop_control" id="drop" aria-label="Default select example" accesskey="target" name="drop">
+          <option value="-">Select Universities</option>
+          <option value="college.html">college 1</option>
+          <option value="creative">college 2</option>
+          <option value="uiux">college 3</option>
+        </select>
+      </div>
+
+      <div class="form_group">
+        <button type="button" value="Go" onclick="goToNewPage()" class="btn"><span>select</span></button>
+      </div>
     </div>
 
-    <div class="form_group">
-      <button type="button" value="Go" onclick="goToNewPage()" class="btn"><span>select</span></button>
-    </div>
+    <button type="button" class="trans"><a href="#contact" class="fas fa-angle-down"></a></button>
 
   </section>
 
