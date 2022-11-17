@@ -154,7 +154,8 @@ header #menu {
     align-items: center;
     justify-content: center;
     flex-flow: column;
-    background: url(./images/herobg.jpg) no-repeat;
+    /* background: url(./images/herobg.jpg) no-repeat; */
+    background-image: -webkit-linear-gradient(rgba(35, 35, 35, 0.75), rgba(39, 39, 39, 0.75)), url(./images/herobg.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -217,7 +218,7 @@ section.cards .card1 {
 }
 
 section.cards .card1:hover {
-    background-color: rgba(31, 30, 30, 0.114);
+    background-color: rgba(21, 20, 20, 0.416);
     cursor: pointer;
 }
 
@@ -226,12 +227,12 @@ section.cards .card1 .head {
 }
 
 section.cards .card1 .head h1 {
-    font-size: 20px;
+    font-size: 35px;
     color: var(--wt);
 }
 
 section.cards .card1 .head p {
-    font-size: 15px;
+    font-size: 16px;
     color: var(--wt);
 }
 
