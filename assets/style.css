@@ -340,9 +340,14 @@ section.cards .card1 {
     margin: 10rem;
     padding: 40px;
     border-radius: 8px;
-    align-items: center;
-    text-align: center;
+    /* align-items: center; */
+    /* text-align: center; */
     background-color: var(--nav);
+}
+
+section.cards .card1 .checkbox {
+    float: left;
+    flex-direction: column;
 }
 
 section.cards .card1:hover {
@@ -351,6 +356,7 @@ section.cards .card1:hover {
 }
 
 section.cards .card1 .head {
+    text-align: center;
     margin-bottom: 20px;
 }
 
@@ -378,9 +384,10 @@ section.cards .card1 i {
 }
 
 section.cards .card1 .boxes {
+    display: flex;
     align-items: center;
     text-align: center;
-    display: flex;
+    justify-content: center;
     flex-direction: row;
 }
 
