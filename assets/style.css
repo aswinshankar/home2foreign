@@ -390,6 +390,8 @@ section.cards .card1 .boxes {
 }
 
 section.cards .card1 .boxes .box1{
+    width: 120px;
+    height: 70px;
     background-color: #6d99da;
     border-radius: 6px;
     padding: 13px;
