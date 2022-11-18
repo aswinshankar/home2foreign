@@ -340,8 +340,6 @@ section.cards .card1 {
     margin: 10rem;
     padding: 40px;
     border-radius: 8px;
-    /* align-items: center; */
-    /* text-align: center; */
     background-color: var(--nav);
 }
 
@@ -641,8 +639,6 @@ section.cards .card1 .boxes .box1{
         margin: 20px;
         padding: 40px;
         border-radius: 8px;
-        align-items: center;
-        text-align: center;
         background-color: var(--nav);
     }
 
