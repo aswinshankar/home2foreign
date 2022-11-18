@@ -301,7 +301,7 @@ section.ques .faqhead h1{
     font-size: 15px;
   }
   
-  .active, .collapsible:hover {
+  section.ques .faq_box .active, .collapsible:hover {
     background-color: rgb(107, 107, 107);
   }
   
