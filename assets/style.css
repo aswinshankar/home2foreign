@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
 :root {
     --gradient: linear-gradient(90deg, #0f69f1, #6295f5);
     --primary-color: #1261f3;
@@ -94,8 +97,9 @@ header {
 
 header .logo {
     color: var(--wt);
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: bolder;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 header .navbar ul {
@@ -112,6 +116,7 @@ header .navbar ul li {
 header .navbar ul li a {
     font-size: 2rem;
     color: var(--wt);
+    font-family: 'Poppins', sans-serif;
 }
 
 header .navbar ul li a.active,
@@ -389,13 +394,17 @@ section.cards .card1 .boxes {
     flex-direction: row;
 }
 
-section.cards .card1 .boxes .box1{
+section.cards .card1 .boxes .box1 {
     width: 120px;
     height: 70px;
     background-color: #6d99da;
     border-radius: 6px;
     padding: 13px;
     margin: 10px;
+}
+
+section.cards .card1 .boxes .box1 a {
+    line-height: 23px;
 }
 
 /* contact */
@@ -546,17 +555,13 @@ section.cards .card1 .boxes .box1{
 }
 
 .footer .credit {
-    padding: 2rem 1rem;
-    font-size: 2rem;
+    padding: 1rem 1rem;
+    font-size: 1.5rem;
     color: var(--wt);
-    background: #111;
+    background: rgb(41, 41, 41);
     text-align: center;
     font-weight: normal;
     padding-bottom: 2rem;
-}
-
-.footer .credit a {
-    color: var(--primary-color);
 }
 
 
