@@ -50,12 +50,13 @@ section {
 
 /* button */
 .btn {
-    padding: .7rem 3rem;
+    padding: 1.5rem 4rem;
     font-size: 2rem;
     color: var(--wt);
-    background: var(--gradient);
-    border-radius: 5rem;
-    margin-top: 1rem;
+    background: var(--nav);
+    border-radius: 8px;
+    /* margin-top: 1rem; */
+    border: none;
     cursor: pointer;
     box-shadow: 0 .1rem .3rem rgba(0, 0, 0, .3);
     position: relative;
@@ -184,7 +185,7 @@ section.home .search .drop {
 
 section.home .search .drop .drop_control {
     font-size: 20px;
-    padding: 1.4rem 7rem;
+    padding: 1.5rem 9rem;
     border-radius: 6px;
 }
 
@@ -296,7 +297,7 @@ section.ques .faqhead {
     margin-bottom: 23px;
 }
 
-section.ques .faqhead h1{
+section.ques .faqhead h1 {
     font-size: 20px;
 }
 
@@ -310,24 +311,25 @@ section.ques .faqhead h1{
     text-align: left;
     outline: none;
     font-size: 15px;
-  }
-  
-  section.ques .faq_box .active, .collapsible:hover {
+}
+
+section.ques .faq_box .active,
+.collapsible:hover {
     background-color: rgb(107, 107, 107);
-  }
-  
-  .content {
+}
+
+.content {
     padding: 0 18px;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
     background-color: var(--wt);
-  }
+}
 
-  .content p {
+.content p {
     font-size: 16px;
     padding: 10px;
-  }
+}
 
 
 /* cards */
@@ -348,7 +350,65 @@ section.cards .card1 {
     background-color: var(--nav);
 }
 
-section.cards .card1 .checkbox {
+/* checkbox */
+.main {
+    display: block;
+    position: relative;
+    padding-left: 45px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+input[type=checkbox] {
+    visibility: hidden;
+}
+
+.inside {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: var(--wt);
+    border-radius: 4px;
+}
+
+.main:hover input~.inside {
+    background-color: gray;
+}
+
+.main input:active~.inside {
+    background-color: white;
+}
+
+.main input:checked~.inside {
+    background-color: rgb(102, 255, 0);
+}
+
+.inside:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.main input:checked~.inside:after {
+    display: block;
+}
+
+.main .inside:after {
+    left: 8px;
+    bottom: 5px;
+    width: 6px;
+    height: 12px;
+    border: solid white;
+    border-width: 0 4px 4px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+section.cards .card1 .main {
     float: left;
     flex-direction: column;
 }
