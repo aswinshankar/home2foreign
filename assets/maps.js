@@ -7,11 +7,11 @@ const findMyState = () => {
 
     const success = (position) => {
         console.log(position);
-        const lat = position.coords.latitude;
+        const lati = position.coords.latitude;
         const long = position.coords.longitude;
 
 
-        const geoApiUrl = `https://api.bigdatacloud.net/data/reverse-geocode-client?latitude=${lat}&longitude=${long}&localityLanguage=en`
+        const geoApiUrl = `https://api.bigdatacloud.net/data/reverse-geocode-client?latitude=${lati}&longitude=${long}&localityLanguage=en`
 
         fetch(geoApiUrl)
         .then(res => res.json())
@@ -33,3 +33,4 @@ const findMyState = () => {
 }
 
 document.querySelector('.find-state').addEventListener('click', findMyState);
+
